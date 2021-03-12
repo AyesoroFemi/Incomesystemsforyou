@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="css/materialize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body  style="font-family: 'Nunito', sans-serif;">
+
+    
+    <haeder>
+        <div class="navbar-fixed">
+            <nav class=" blue-grey darken-1">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="#" class="brand-logo left">Income Systems</a>
+                        <a href="#" data-target="mobile-nav" class="sidenav-trigger right">
+                            <i class="material-icons">menu</i>
+                        </a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="index.html" class="">Home</a></li>
+                            <li><a href="about.html" class="">About Us</a></li>
+                            <!-- <li><a href="#" class="">Contact Us</a></li> -->      
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <ul class="sidenav" id="mobile-nav">
+            <li><a href="index.html" class="">Home</a></li>
+            <li><a href="about.html" class="">About Us</a></li>
+            <!-- <li><a href="#" class="">Contact Us</a></li> -->  
+        </ul>
+    </haeder>
+
+
+
+    <div class="container">
+        <h3 style="font-size:28px; font-weight:700; margin-top:20px;">About Us</h3>
+        <p style="font-size:18px;">We are your one stop income solutions blog and personal 
+            finance guide. At Incomesystems, we are dedicated to helping you  earn more and be more.
+            
+            Our primary objective is to provide critical information to help
+            you improve your earning power and enjoy greater financial freedom.
+            
+            Our array of articles, quotables, anecdotes and hacks are designed 
+            to address every aspect of your personal finance. 
+        </p>
+        
+        <session>
+            <div>
+                <h4 class="center">Our Team</h4>
+                <div class="row">
+                    <div class="">
+                        <div class="col s12 m6 l4" style="height: 400px;">
+                            <div class="card-panel  blue-grey darken-1 white-text">
+                               <div class="center-align"> <img src="img/ezee1.jpg" class="responsive-img circle" alt=""></div>
+                                 <h5 class="center-align">Eze</h5>
+                                 <p style="font-size:14px;">
+                                     A transformational speaker, prolific writer, and entrepreneur. <br> He's passionate about continuous learning and personal transformation.
+                                     He is a contributory writer to this blog.
+                                     He can be reached on <i>ezeeugene.emeka@gmail.com</i>
+                                 </p>
+                            </div>  
+                    </div>           
+                       
+                    </div>
+                    <div class="col s12 m6 l4" style="height: 400px;">
+                        <div class="card-panel  blue-grey darken-1 white-text">
+                           <div class="center-align"> <img src="img/dan1.jpg" class="responsive-img circle" alt=""></div>
+                            <h5 class="center-align">Dan</h5>
+                            <p style="font-size:14px;">
+                                A seasoned educationist, content editor and business enthusiast. <br>
+                                He is passionate about
+                                e-learning and technology integration in educational systems.
+                                He contributes as writer and editor to the blog.
+                                You can reach him on <i>danomarshal@gmail</i>
+
+                            </p>
+                        </div>
+                    </div>
+                       <div class="col s12 m6 l4"  style="height: 400px;">
+                         <div class="card-panel  blue-grey darken-1 white-text"> 
+                           <div class="center-align"> <img src="img/fem1.jpg" class="responsive-img circle" alt=""></div>
+                                <h5 class="center-align">Femi</h5>
+                                <p style="font-size:14px;">A programmer and web developer. 
+                                    <br>He is you go-to for
+                                    web solutions and applications. He strongly believes the future is online.
+                                    As the tech guy in our crew he handles all things software.
+                                    You can contact him on <i>pepcoders@gmail.com</i>
+                                </p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </session>
+    
+    </div>
+     <!-- Footer session -->
+
+     <footer class="section  blue-grey darken-1 white-text center" style="margin-top:400px;">
+        <p class="flow-text">Income Systems &copy; 2020</p>
+    </footer>
+
+    <!-- End of footer session -->
+    <script src="js/jquery-3.4.1.js"></script>
+<script src="js/materialize.js"></script>
+<script>
+     const sideNav = document.querySelector('.sidenav');
+        M.Sidenav.init(sideNav,{});
+        // slider
+        const slider = document.querySelector('.slider');
+        M.Slider.init(slider, {
+            indicators: false,
+            height: 500,
+            transition: 500,
+            interval: 6000
+        })
+</script>
+</body>
+</html>
